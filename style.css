@@ -1,0 +1,192 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+  background: #fdf6e3;
+  color: #5d3a00;
+  overflow-x: hidden;
+  min-height: 200px;
+}
+.hidden {
+  display: none;
+}
+.landing {
+  height: 92vh;
+  background: url(/wayang.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+}
+.landing h1 {
+  font-family: 'jawapalsu',;
+  font-size: 50px;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #8b5c2c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.section {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background {
+  background-image: url('/background.jpg');
+  background-size: cover;
+}
+
+.pengantin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.pengantin-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-bulat {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d2b48c; /* warna cream */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2)
+  margin-bottom: 10px;
+}
+
+.gunungan-wrapper {
+  margin: 10px 0;
+}
+
+.gunungan-kecil {
+  width: 40px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1.5s ease-out;
+}
+.show {
+  opacity: 1;
+}
+
+.text-border {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #d2b48c; /* warna cream */
+  border-radius: 10px; /* sudut tumpul */
+  
+}
+.text-background {
+  display: inline-block;
+  background-color:#FFF8DC; /* warna cream muda */
+  padding: 4px 12px;
+  border-radius: 10px; /* sudut membulat *
+ color: #5c3d00; /* teks tetap warna solid */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* opsional, efek melayang */
+  }
+@font-face {
+  font-family: 'jawapalsu';
+  src: url('jawapalsu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: jawapalsu;
+}
+
+p {
+  font-family: work sans;
+  font-size: 1;
+}
+h3 {
+  font-family: jawapalsu;
+}
+.acara-section {
+  padding: 50px 20px;
+  background-color:#FFF8DC;
+  text-align: center;
+}
+
+.acara-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.acara-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.acara-item h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #8b4513;
+}
+
+.acara-item p {
+  font-size: 16px;
+  color: #5c3d00;
+}
+
+.countdown-container {
+  text-align: center;
+}
+
+.countdown-container h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #5c3d00;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.circle {
+  background: #f5deb3;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #5c3d00;
+}
+
+.circle span {
+  font-size: 18px;
+}
+
+.circle small {
+  font-size: 12px;
+}

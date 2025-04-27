@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nurul & Indra Wedding</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="landing fullpage hidden" id="landing">
+  <div class="landing-content">
+    <h2>The Wedding of</h2>
+    <h1>Nurul & Indra</h1>
+    <p>03 Desember 2025</p>
+    <button id="openInvitation">Buka Undangan</button>
+  </div>
+</div>
+
+<audio id="bgMusic" loop>
+  <source src="/kebogiro.mp3" type="audio/mp3">
+</audio>
+
+<div id="content" class="hidden">
+
+  <section id="ayat" class="section background fullpage hidden">
+    <div class="ayat">
+      <p class=" text-background">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri..."<br><br><strong>QS. Ar-Rum: 21</strong></p>
+    </div>
+  </section>
+
+<section id="pengantin" class="section background fullpage hidden">
+  <div class="section-content pengantin-container">
+    
+    <!-- Pengantin Wanita -->
+    <div class="pengantin-item">
+      <img src="/nurul.jpg" alt="Pengantin Wanita" class="foto-bulat">
+      <h3 class="text-border text-background">Dwi Retno Nurul Fatimah</h3>
+      <p class="text-border text-background">Putri dari Bapak Sinung Karetno & Ibu Pairah</p>
+    </div>
+
+    <!-- Gunungan di Tengah -->
+    <div class="gunungan-wrapper">
+      <img src="/gunungan.png" alt="Gunungan Wayang" class="gunungan-kecil">
+    </div>
+
+    <!-- Pengantin Pria -->
+    <div class="pengantin-item">
+      <img src="/indra.jpg" alt="Pengantin Pria" class="foto-bulat">
+      <h3 class="text-border text-background">Indra Yulianto</h3>
+      <p class="text-border text-background">Putra dari Bapak Sumiran & Ibu Marsiyem</p>
+    </div>
+  </div>
+</section>
+<section id="acara" class="acara-section background">
+  <div class="acara-container fullpage hidden">
+    <div class="acara-item">
+      <h3>Ahad Nikah</h3>
+      <p>Minggu, 03 Desember 2025<br> Pukul 08.00 WIB</p>
+    </div>
+
+    <div class="acara-item">
+      <h3>Resepsi</h3>
+      <p>Minggu, 03 Desember 2025<br> Pukul 11.00 WIB</p>
+    </div>
+  </div>
+
+  <div class="countdown-container text-border fullpage hidden">
+    <h4 class="text-background">Menuju Hari Bahagia</h4>
+    <div class="countdown" id="countdown">
+      <div class="circle"><span id="days">0</span><small>Hari</small></div>
+      <div class="circle"><span id="hours">0</span><small>Jam</small></div>
+      <div class="circle"><span id="minutes">0</span><small>Menit</small></div>
+      <div class="circle"><span id="seconds">0</span><small>Detik</small></div>
+    </div>
+  </div>
+</section>
+<section id="lokasi" class="background" style="text-align: center; padding: 2rem;">
+  <h2 style="font-family: 'jawapalsu', cursive; font-size: 2rem; color: #5a4634;">Tempat Acara</h2>
+  <p class="text-background text-border" style="font-family: 'Work Sans', sans-serif; font-size: 1rem; color: #5a4634; margin-top: 1rem;">
+    Rumah Mempelai Wanita<br>
+    Gondangrejo, Gari, Wonosari, Gunungkidul
+  </p>
+
+  <!-- Embed Google Maps -->
+  <div style="margin-top: 1.5rem;">
+    <iframe
+      src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Gondangrejo, 01/19 , Gari, Kec. Wonosari, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta, Indonesia&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+      width="100%"
+      height="300"
+      style="border:0; border-radius: 1rem;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Tombol ke Google Maps -->
+  <div style="margin-top: 1.5rem;">
+    <a href="https://maps.app.goo.gl/AJayPFUgE1oRxQoQA" target="_blank" 
+       style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #d2b48c; color: white; border-radius: 9999px; text-decoration: none; font-family: 'Work Sans', sans-serif;">
+      Buka di Google Maps
+    </a>
+  </div>
+</section>
+<section id="galeri" class="section background fullpage hidden" style="text-align: center; padding: 2rem;">
+  <h2 style="font-family: 'jawapalsu', cursive; font-size: 2rem; color: #5a4634;">Galeri Foto</h2>
+
+  <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; align-items: center;">
+    <!-- Foto 1 -->
+    <img src="/foto1.jpg" alt="Foto 1" style="width: 80%; border-radius: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+    <!-- Foto 2 -->
+    <img src="/foto2.jpg" alt="Foto 2" style="width: 80%; border-radius: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+    <!-- Foto 3 -->
+    <img src="/foto3.jpg" alt="Foto 3" style="width: 80%; border-radius: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+    <!-- Tambah foto lagi kalau mau -->
+  </div>
+</section>
+<section id="rekening" class="background" style="text-align: center; padding: 2rem;">
+  <h2 style="font-family: 'jawapalsu', cursive; font-size: 2.5rem; color: #5a4634;">Kirim Hadiah</h2>
+
+  <p class="text-background text-border"style="font-family: 'Work Sans', sans-serif; font-size: 1rem; color: #5a4634; margin-top: 1rem;">
+    Bank BRI<br>
+    No. Rekening: <strong id="rekeningNumber">698701014949531</strong><br>
+    a.n. Dwi Retno Nurul Fatimah
+  </p>
+
+  <!-- Tombol Copy Rekening -->
+  <div style="margin-top: 1.5rem;">
+    <button onclick="copyRekening()" 
+            style="padding: 0.75rem 1.5rem; background-color: #d2b48c; color: white; border: none; border-radius: 9999px; font-family: 'Work Sans', sans-serif; cursor: pointer;">
+      Salin No. Rekening
+    </button>
+  </div>
+</section>
+<section id="rsvp" class="background" style="text-align: center; padding: 2rem;">
+  <h2 style="font-family: 'jawapalsu', cursive; font-size: 2rem; color: #5a4634;">Konfirmasi Kehadiran</h2>
+
+  <p class="text-background text-border" style="font-family: 'Work Sans', sans-serif; font-size: 1rem; color: #5a4634; margin-top: 1rem;">
+    Kami tunggu konfirmasi kehadiran Anda
+  </p>
+
+  <!-- Tombol RSVP via WhatsApp -->
+  <div style="margin-top: 1.5rem;">
+    <a href="https://wa.me/6281390407364?text=Halo%2C%20saya%20ingin%20mengonfirmasi%20kehadiran%20di%20acara%20pernikahan." 
+       target="_blank" 
+       style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #25D366; color: white; border-radius: 9999px; text-decoration: none; font-family: 'Work Sans', sans-serif; font-weight: bold;">
+      Konfirmasi via WhatsApp
+    </a>
+  </div>
+</section>
+<section id="terima-kasih" class="background" style="text-align: center; padding: 2rem;">
+  <h2 style="font-family: 'jawapalsu', cursive; font-size: 2rem; color: #5a4634;">Terima Kasih</h2>
+
+  <p class="text-background text-border" style="font-family: 'Work Sans', sans-serif; font-size: 1rem; color: #5a4634; margin-top: 1rem; margin-bottom: 2rem;">
+    Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+    <br>Atas kehadiran dan doa restunya, kami ucapkan terima kasih.
+  </p>
+
+  <!-- Foto kecil di tengah -->
+  <div style="margin-bottom: 2rem;">
+    <img src="/gunungan.png" alt="Foto Terima Kasih" 
+         style="width: 100px; height: 160px; object-fit: cover; border-radius: 0%; box-shadow: 0 0px 0px rgba(0,0,0,0.1);">
+  </div>
+
+  <!-- Nama mempelai -->
+  <h3 style="font-family: 'jawapalsu', cursive; font-size: 2rem; color: #5a4634;">
+    Nurul & Indra
+  </h3>
+</section>
+<script>
+  function copyRekening() {
+    var rekening = document.getElementById("rekeningNumber").innerText;
+    navigator.clipboard.writeText(rekening).then(function() {
+      alert("Nomor rekening berhasil disalin!");
+    }, function(err) {
+      alert("Gagal menyalin nomor rekening.");
+    });
+  }
+</script>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
